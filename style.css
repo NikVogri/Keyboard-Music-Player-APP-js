@@ -1,0 +1,205 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI";
+  font-weight: 300;
+  outline: none;
+}
+
+.wrapper {
+  background: url(./back.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: relative;
+}
+
+.bmp--selector {
+  position: absolute;
+  color: #fff;
+  font-size: 10px;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bmp--selector h1 {
+  text-align: center;
+}
+
+.bmp--selector h1 span {
+  font-weight: 600;
+}
+
+.bmp--selector input {
+  width: 45px;
+  margin: 0 auto;
+  display: block;
+}
+
+.wrapper img {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper h2 {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  color: #fff;
+  opacity: 0.65;
+}
+
+.boxes--image {
+  position: absolute;
+  height: 100px;
+  width: 1536px;
+  top: 26%;
+  left: 12%;
+  display: flex;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  z-index: 5;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  margin-left: 50px;
+  background-color: red;
+  box-shadow: 3px 3px 10px rgb(24, 23, 23);
+  transition: all 0.1s ease-in-out;
+}
+
+.btn {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box {
+  display: none;
+}
+
+#play--btn,
+#rec--btn {
+  margin: 0 10px;
+  width: 100px;
+  height: 50px;
+  background-color: #ff4444;
+  border: none;
+  color: #fff;
+  font-size: 35px;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 10px rgb(24, 23, 23);
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+#play--btn:active {
+  transform: scale(1.1);
+}
+
+#rec--btn:active {
+  transform: scale(1.1);
+}
+
+#reset--btn:active {
+  transform: scale(1.1);
+}
+
+input {
+  border: solid 2px #ff4444;
+  text-align: center;
+}
+
+.keys {
+  position: absolute;
+  width: 655px;
+  height: 264px;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);
+  display: flex;
+}
+
+#reset--btn {
+  position: absolute;
+  height: 50px;
+  display: block;
+  width: 220px;
+  background-color: #ff4444;
+  border: none;
+  color: #fff;
+  font-size: 35px;
+  bottom: -150%;
+  left: 5%;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 10px rgb(24, 23, 23);
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.keys-boxes {
+  margin: 0 5px;
+  height: 100%;
+  width: 100px;
+  opacity: 0.85;
+  box-shadow: 3px 3px 10px rgb(24, 23, 23);
+  cursor: pointer;
+}
+
+#key1 {
+  background-color: #e11d1d;
+}
+
+#key1:hover {
+  background-color: rgb(187, 26, 26);
+}
+
+#key2 {
+  background-color: #1dbfe1;
+}
+
+#key2:hover {
+  background-color: rgb(29, 165, 192);
+}
+
+#key3 {
+  background-color: #1d1de1;
+}
+
+#key3:hover {
+  background-color: rgb(34, 34, 180);
+}
+
+#key4 {
+  background-color: #e11dc7;
+}
+
+#key4:hover {
+  background-color: rgb(189, 38, 169);
+}
+
+#key5 {
+  background-color: #eb7013;
+}
+
+#key5:hover {
+  background-color: rgb(194, 100, 29);
+}
+
+#key6 {
+  background-color: #1de124;
+}
+
+#key6:hover {
+  background-color: rgb(33, 182, 38);
+}

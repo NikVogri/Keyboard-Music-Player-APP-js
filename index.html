@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Keyboard APP</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <h2>Coded by: Nick</h2>
+        <div class="bmp--selector">
+            <h1>Select <span>ms</span></h1>
+            <input type="number" id="input" value=400>
+        </div>
+        <img src="line.png" alt="">
+        <div class="boxes--image">
+            <div id="box1" class="box"></div>
+            <div id="box2" class="box"></div>
+            <div id="box3" class="box"></div>
+            <div id="box4" class="box"></div>
+            <div id="box5" class="box"></div>
+            <div id="box6" class="box"></div>
+            <div id="box7" class="box"></div>
+            <div id="box8" class="box"></div>
+            <div id="box9" class="box"></div>
+            <div id="box10" class="box"></div>
+        </div>
+        <div class="btn">
+            <button id="rec--btn">REC</button>
+            <button id="play--btn">play</button>
+            <button id="reset--btn">Reset</button>
+        </div>
+        <div class="keys">
+            <div id="key1" class="keys-boxes" onclick="playSound(1, '#E11D1D')"></div>
+            <div id="key2" class="keys-boxes" onclick="playSound(2, '#1DBFE1')"></div>
+            <div id="key3" class="keys-boxes" onclick="playSound(3, '#1D1DE1')"></div>
+            <div id="key4" class="keys-boxes" onclick="playSound(4, '#E11DC7')"></div>
+            <div id="key5" class="keys-boxes" onclick="playSound(5, '#EB7013')"></div>
+            <div id="key6" class="keys-boxes" onclick="playSound(6, '#1DE124')"></div>
+        </div>
+    </div>
+ <script src="app.js"></script>
+</body>
+
+</html>
