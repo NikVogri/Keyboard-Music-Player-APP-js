@@ -1,11 +1,14 @@
 # Keyboard-APP-js
 Keyboard application using JS, HTML, CSS.
 
-How it works:
-Select BPM by selecting custom ms delay between each block. I'd recommend using above 150ms.
-Press REC button to record keypresses to an array in JS.
-Press PLAY to play the recorded keypresses, which are also displayed with graphics indicating each pressed key. You can also use this button to replay.
-Press RESET to reset the array.
-You can also play keys without recording them.
+<p>First off - thanks for checking my project on my github, you can also check my other projects on my profile. :)</p>
 
-Possible upgrades: more tracks, custom delay for each block.
+<h1>How it works:</h1>
+<h3>"Piano" Keys</h3>
+<p>The keys are located at the bottom-center of the screen. They each represent one sound. When clicked relative sound plays. You can also record your inputs by clicking "REC" button located above them and clicking up to max 10 keys. This is also visually represented.</p>
+<h3>Speed</h3>
+<p>I have also added a functionality to set delay/space between two keys. The default is set to 400ms, because I think that's perfect. You can set your own delay.</p>
+<h3>Buttons</h3>
+<p>App consists of three main buttons, REC, PLAY & RESET. Each with their own functionality as stated in the name. REC button will add keys that have been pressed to an array, PLAY button will check the array and play each sound saved. RESET will clear the array, and you can add a new input of keys.</p>
+
+<p>Thank you again for checking out my project, if you have any complaints or any advice on how to improve, please send me a message or push to my repo, and I will check it out!</p>
